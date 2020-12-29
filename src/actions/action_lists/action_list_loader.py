@@ -8,4 +8,4 @@ class ActionListLoader:
     def load(self):
         for items_list in self.action_list:
             for item in items_list:
-                yield item['name']
+                yield item
